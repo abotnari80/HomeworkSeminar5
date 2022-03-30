@@ -11,7 +11,7 @@ System.Console.WriteLine();
 
 for (int i = 0; i < 4; i++)
 {
-    if ((i + 1) % 2 != 0)
+    if (i % 2 != 0)
     {
         result = result + array[i];
     }
